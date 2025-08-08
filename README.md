@@ -4,22 +4,22 @@ Este projeto é um bot de trading automatizado para operar o par **SOL/BRL** na 
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
-- 📈 Coleta de dados históricos de candles via API da Binance
-- 📊 Cálculo de indicadores técnicos:
+-  Coleta de dados históricos de candles via API da Binance
+-  Cálculo de indicadores técnicos:
   - Médias móveis (SMA)
   - RSI (Índice de Força Relativa)
   - Bandas de Bollinger
-- 📥 Estratégia de compra baseada em cruzamento de médias + RSI + bandas
-- 📤 Estratégia de venda com take profit, stop loss e sobrecompra
-- 💰 Cálculo automático de tamanho da posição com base no risco
-- 📜 Logging completo das execuções
-- 🔒 Uso de variáveis de ambiente via `.env` para segurança das chaves
+-  Estratégia de compra baseada em cruzamento de médias + RSI + bandas
+-  Estratégia de venda com take profit, stop loss e sobrecompra
+-  Cálculo automático de tamanho da posição com base no risco
+-  Logging completo das execuções
+   Uso de variáveis de ambiente via `.env` para segurança das chaves
 
 ---
 
-## 🧠 Estratégia Implementada
+##  Estratégia Implementada
 
 ### Compra
 - Cruzamento de média rápida acima da lenta
@@ -34,7 +34,7 @@ Este projeto é um bot de trading automatizado para operar o par **SOL/BRL** na 
 
 ---
 
-## 🛠️ Tecnologias Usadas
+##  Tecnologias Usadas
 
 - Python 3.10+
 - [Binance API](https://binance-docs.github.io/apidocs/spot/en/)
@@ -43,7 +43,7 @@ Este projeto é um bot de trading automatizado para operar o par **SOL/BRL** na 
 
 ---
 
-## 🚀 Como Executar
+##  Como Executar
 
 1. Clone o repositório:
 
@@ -73,7 +73,7 @@ python bot-trader.py
 
 ---
 
-## ⚠️ Aviso Legal
+##  Aviso Legal
 
 > Este projeto é **exclusivamente educacional**. Operar com criptomoedas envolve risco. O autor **não se responsabiliza por quaisquer perdas financeiras** resultantes do uso deste código.
 
@@ -81,7 +81,7 @@ python bot-trader.py
 
 ---
 
-## 🧾 Arquivos Importantes
+## Arquivos Importantes
 
 - `bot-trader.py` – Código principal do bot
 - `.env` – Variáveis de ambiente (NÃO subir no GitHub)
@@ -91,7 +91,7 @@ python bot-trader.py
 
 ---
 
-## 📈 Próximas Melhorias (Sugeridas)
+## Próximas Melhorias (Sugeridas)
 
 - Interface web com Streamlit ou Dash
 - Backtest com dados históricos
